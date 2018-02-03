@@ -1,0 +1,43 @@
+header{
+    font-family: 'Source Code Pro', cursive;
+    text-align:center;
+    padding-top:100px;
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+} 
+
+header h1{
+    font-size: 80px; 
+    animation: fadeIn 5s;
+}
+
+body{
+    font-family: 'Source Code Pro', cursive;
+    background: #C8A2C8 ;
+    background: linear-gradient(to left,#C8A2C8, #EEE5EE);   
+}
+
+ul {
+    list-style-type: none;
+    margin-top:70px;
+    margin-left: 950px;
+    padding-bottom: 80px;
+    width: 200px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding-bottom:60px;
+    text-decoration: none;
+    color:black;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    text-decoration: none;
+    color: white;
+}
